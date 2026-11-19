@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Card Drop Shadow -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Play Button Drop Shadow -->
+    <filter id="playShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#F43F5E" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+
+    <!-- Header Gradient -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF7597"/>
+      <stop offset="100%" stop-color="#F4587E"/>
+    </linearGradient>
+
+    <!-- Play Button Gradient -->
+    <linearGradient id="playGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7597"/>
+      <stop offset="100%" stop-color="#F4587E"/>
+    </linearGradient>
+
+    <!-- Dot Gradients -->
+    <radialGradient id="redDot" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FF7676"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </radialGradient>
+    <radialGradient id="yellowDot" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </radialGradient>
+    <radialGradient id="greenDot" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </radialGradient>
+
+    <clipPath id="cardClip">
+      <rect x="56" y="80" width="400" height="352" rx="56" ry="56"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main Window Body with Clip -->
+  <g filter="url(#cardShadow)">
+    <rect x="56" y="80" width="400" height="352" rx="56" ry="56" fill="#F8FAFC"/>
+  </g>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Top Pink Header Bar -->
+    <rect x="56" y="80" width="400" height="96" fill="url(#headerGrad)"/>
+
+    <!-- Subtle divider line below header -->
+    <rect x="56" y="174" width="400" height="2" fill="#000000" opacity="0.04"/>
+
+    <!-- Traffic Light Window Buttons -->
+    <circle cx="112" cy="128" r="14" fill="url(#redDot)"/>
+    <circle cx="152" cy="128" r="14" fill="url(#yellowDot)"/>
+    <circle cx="192" cy="128" r="14" fill="url(#greenDot)"/>
+  </g>
+
+  <!-- Central 3D Rounded Play Triangle -->
+  <g filter="url(#playShadow)">
+    <path d="M 226 238 C 216 232 204 238 204 250 L 204 330 C 204 342 216 348 226 342 L 296 302 C 306 296 306 284 296 278 Z"
+          fill="url(#playGrad)"/>
+  </g>
+</svg>

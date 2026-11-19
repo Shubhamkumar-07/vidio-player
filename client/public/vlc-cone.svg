@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="coneGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5500"/>
+      <stop offset="45%" stop-color="#FF8800"/>
+      <stop offset="70%" stop-color="#FFA834"/>
+      <stop offset="100%" stop-color="#CC4400"/>
+    </linearGradient>
+    <linearGradient id="coneWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D0D0D5"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B8B8C0"/>
+    </linearGradient>
+    <radialGradient id="baseShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.5)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Shadow -->
+  <ellipse cx="50" cy="88" rx="42" ry="7" fill="url(#baseShadow)"/>
+
+  <!-- Base Plate -->
+  <path d="M 12 87 L 22 81 L 78 81 L 88 87 L 84 90 L 16 90 Z" fill="#D94800"/>
+  <ellipse cx="50" cy="84" rx="36" ry="6" fill="#FF7700"/>
+  
+  <!-- Orange Bottom Tier -->
+  <polygon points="26,82 74,82 69,67 31,67" fill="url(#coneGrad1)"/>
+  
+  <!-- White Stripe Bottom -->
+  <polygon points="31,67 69,67 64,52 36,52" fill="url(#coneWhite)"/>
+  
+  <!-- Orange Middle Tier -->
+  <polygon points="36,52 64,52 59,37 41,37" fill="url(#coneGrad1)"/>
+  
+  <!-- White Stripe Top -->
+  <polygon points="41,37 59,37 56,26 44,26" fill="url(#coneWhite)"/>
+  
+  <!-- Orange Top Tip -->
+  <path d="M 44,26 L 56,26 Q 50,11 48,11 Q 46,11 44,26 Z" fill="url(#coneGrad1)"/>
+  <ellipse cx="48" cy="11.5" rx="2.5" ry="1.5" fill="#FFA834"/>
+</svg>

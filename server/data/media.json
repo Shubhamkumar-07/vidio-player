@@ -1,0 +1,92 @@
+[
+  {
+    "id": "media-1795096001608-60",
+    "title": "[@Graduate_Movies]~ Ꮪᴡᴀᴘɴᴏɴɪʟ !!",
+    "originalName": "Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA.mkv",
+    "filename": "Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA-1795095944179-726779424.mkv",
+    "path": "/Users/shubham/Desktop/Vidio Player/server/uploads/Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA-1795095944179-726779424.mkv",
+    "mimeType": "video/matroska",
+    "type": "video",
+    "size": 1530209004,
+    "duration": 24436.498,
+    "artist": "[@Graduate_Movies]~ Ꮪᴡᴀᴘɴᴏɴɪʟ !!",
+    "album": "Unknown Album",
+    "subtitles": [],
+    "createdAt": "2026-11-19T13:46:41.608Z"
+  },
+  {
+    "id": "media-1795095982096-130",
+    "title": "[@Graduate_Movies]~ Ꮪᴡᴀᴘɴᴏɴɪʟ !!",
+    "originalName": "Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA.mkv",
+    "filename": "Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA-1795095923865-58262557.mkv",
+    "path": "/Users/shubham/Desktop/Vidio Player/server/uploads/Campus Diaries (2026) S02 COMBiNED 480p WEB-DL x264 Hindi AA-1795095923865-58262557.mkv",
+    "mimeType": "video/matroska",
+    "type": "video",
+    "size": 1530209004,
+    "duration": 24436.498,
+    "artist": "[@Graduate_Movies]~ Ꮪᴡᴀᴘɴᴏɴɪʟ !!",
+    "album": "Unknown Album",
+    "subtitles": [],
+    "createdAt": "2026-11-19T13:46:22.096Z"
+  },
+  {
+    "id": "sample-bunny-video",
+    "title": "Big Buck Bunny (Animation Preview)",
+    "filename": "big-buck-bunny-preview.mp4",
+    "originalName": "Big Buck Bunny Preview.mp4",
+    "path": "/Users/shubham/Desktop/Vidio Player/server/public/sample/big-buck-bunny-preview.mp4",
+    "mimeType": "video/mp4",
+    "type": "video",
+    "size": 788493,
+    "duration": 10,
+    "subtitles": [
+      {
+        "id": "sub-en",
+        "label": "English",
+        "language": "en",
+        "url": "/api/media/sample-bunny-video/subtitles/sample_en.vtt"
+      }
+    ],
+    "createdAt": "2026-11-19T12:34:16.972Z"
+  },
+  {
+    "id": "sample-synth-audio",
+    "title": "Synth Groove & Harmonic Chords (Equalizer Demo)",
+    "filename": "synth-groove-demo.wav",
+    "originalName": "Synth Groove Demo.wav",
+    "path": "/Users/shubham/Desktop/Vidio Player/server/public/sample/synth-groove-demo.wav",
+    "mimeType": "audio/wav",
+    "type": "audio",
+    "size": 2822444,
+    "duration": 16,
+    "artist": "VLC Web Audio Synth",
+    "album": "VLC Web Master Tracks",
+    "createdAt": "2026-11-19T12:34:16.972Z"
+  },
+  {
+    "id": "sample-mux-hls",
+    "title": "Big Buck Bunny HLS Multi-Bitrate Stream",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "mimeType": "application/x-mpegURL",
+    "type": "hls",
+    "isStream": true,
+    "createdAt": "2026-11-19T12:34:16.972Z"
+  },
+  {
+    "id": "sample-blue-moon",
+    "title": "View From A Blue Moon (Surf Film 720p)",
+    "streamUrl": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4",
+    "mimeType": "video/mp4",
+    "type": "video",
+    "isStream": true,
+    "subtitles": [
+      {
+        "id": "sub-blue-en",
+        "label": "English",
+        "language": "en",
+        "url": "https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+      }
+    ],
+    "createdAt": "2026-11-19T12:34:16.972Z"
+  }
+]

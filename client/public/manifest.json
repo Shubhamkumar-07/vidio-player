@@ -1,0 +1,22 @@
+{
+  "name": "Vidio Player",
+  "short_name": "Vidio Player",
+  "description": "Full-Stack Media Player with Equalizer, Video Effects, and Streaming",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14141c",
+  "theme_color": "#14141c",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
